@@ -216,6 +216,29 @@ body:hover .cursor-outline {
     color: var(--color-primary);
     letter-spacing: 1px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-mark {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: var(--color-secondary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgba(196, 164, 132, 0.4);
+    border-radius: 50%;
+    background: var(--color-white);
+    box-shadow: var(--shadow-sm);
+}
+
+.logo-text {
+    flex: 1;
 }
 
 .nav-list {
@@ -727,6 +750,9 @@ body:hover .cursor-outline {
     font-size: 1.5rem;
     margin-bottom: var(--spacing-sm);
     display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .footer h4 {
